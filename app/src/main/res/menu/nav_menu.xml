@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item
+       android:id="@+id/item1"
+       android:title="Explore"
+       android:icon="@drawable/baseline_bookmark_24"/>
+   <item
+       android:id="@+id/item2"
+       android:title="Settings"
+       android:icon="@drawable/baseline_settings_24"/>
+   <item
+       android:id="@+id/item3"
+       android:title="Conatct Us"
+       android:icon="@drawable/baseline_help_24"/>
+
+   <item
+       android:id="@+id/item4"
+       android:title="Network"
+       android:icon="@drawable/baseline_people_alt_24"/>
+
+
+
+
+
+
+
+</menu>

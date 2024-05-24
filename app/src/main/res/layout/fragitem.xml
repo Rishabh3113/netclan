@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="95dp"
+        android:elevation="9dp"
+        android:id="@+id/card3"
+        android:layout_margin="20sp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/baseline_person_24" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_marginTop="8dp"
+            android:text="JOHNY DEPP"
+            android:textSize="19sp"
+            android:id="@+id/name"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="38dp"
+            android:text="Banglore within 1 km"
+            android:textSize="13sp"
+            android:id="@+id/loc"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:id="@+id/bar"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="60dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:id="@+id/mode"
+            android:layout_marginTop="73dp"
+            android:text="Friendship||coffee||hangout"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginTop="100dp"
+            android:text="HEY! Do select me for internship"
+            android:textSize="16sp"
+            android:id="@+id/desc"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:textStyle="italic"/>
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="75dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_person_add_24"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="INVITE"
+                android:gravity="center"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</RelativeLayout>
